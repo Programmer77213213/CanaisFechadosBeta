@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Versão BETA V:1.0.0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="menu">
+        <nav id="menu-navegação">
+            <ul id="ul-listas-menu">
+                <li>
+                    <a id="home" href="#">Home</a>
+                </li>
+                <li>
+                    <a id="contato-desenvolvedor" href="#">Entrar em contato com o desenvolvedor</a>
+                </li>
+                <li>
+                    <a id="feedback" href="#">Feedback</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <iframe class="case-log" id="cartoon-network" name=Player src="https://sinalpublico.com/player3/ch.php?canal=cartoon" frameborder=0 height=400 scrolling=no width=640 allowFullScreen> </iframe>
+        <iframe class="case-log" id="disney-channel" name=Player src="https://sinalpublico.com/player3/ch.php?canal=disney" frameborder=0 height=400 scrolling=no width=640 allowFullScreen> </iframe>
+        <iframe class="case-log" id="telecine-pipoca" name=Player src="https://sinalpublico.com/player3/ch.php?canal=telecinepipoca" frameborder=0 height=400 scrolling=no width=640 allowFullScreen> </iframe>
+    </main>
+    <footer id="rodape">
+         <address>
+            <div id="container-footer">
+                <div> 
+                    <strong>
+                        <abbr title="Nome do Desenvolvedor do Sistema">
+                           Eliezer felipe souza alegre
+                        </abbr>                       
+                    </strong>
+                </div>            
+                <div>
+                    <strong>
+                        <abbr title="Gmail do Desenvolvedor">
+                            Eliezersouzaalegre@gmail.com
+                        </abbr>                        
+                    </strong>
+                </div>     
+            </div>                       
+         </address>
+    </footer>    
+    <script>
+        var body = window.document.querySelector("body");
+        var question = window.confirm(`ATENÇÃO está é uma versão BETA do site,
+        Contendo bastante Bugs, Deseja abrir a versão BETA V1.0.0 do site`);
+        if(question == true){
+            body.style.display = `block`;
+        }
+        else{
+           window.alert(`Ok, o Conteúdo do site não será Carregado`);
+        }
+    </script>
+</body>
+</html>
